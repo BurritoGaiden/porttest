@@ -23,9 +23,24 @@ ul.feature-icons.single-col li {
 }
 
 .features article .inner{
-  width:18%;
+  width:100%;
 }
 
 .features article .image {
-  width: 80%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .features article .inner{
+    width:28%;
+  }
+
+  .features article .image {
+    width: 70%;
+    padding-right: 1.5em;
+  }
+  
+  ul.feature-icons li {
+    padding: 0.35em 0 0 3.2em;
+  }
 }
