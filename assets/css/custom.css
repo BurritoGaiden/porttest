@@ -21,3 +21,11 @@ ul.feature-icons.single-col li {
 .features article .image.top {
   vertical-align: top;
 }
+
+.features article .inner{
+  width:18%;
+}
+
+.features article .image {
+  width: 80%;
+}
