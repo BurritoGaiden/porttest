@@ -32,11 +32,11 @@ ul.feature-icons.single-col li {
 
 @media (min-width: 768px) {
   .features article .inner{
-    width:80%;
+    width:18%;
   }
 
   .features article .image {
-    width: 19%;
+    width: 80%;
   }
 }
 }
